@@ -25,7 +25,7 @@ export default {
                 <table class="list" v-if="list">
                     <tr v-for="([level, err], i) in list">
                         <td class="rank">
-                            <p v-if="i + 1 <= 250" class="type-label-lg">#{{ i + 1 }}</p>
+                            <p v-if="i + 1 <= 200" class="type-label-lg">#{{ i + 1 }}</p>
                             <p v-else class="type-label-lg">Legacy</p>
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': !level }">
@@ -56,8 +56,8 @@ export default {
                         </li>
                     </ul>
                     <h2>Records</h2>
-                    <p v-if="selected + 1 <= 125"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
-                    <p v-else-if="selected +1 <= 250"><strong>100%</strong> or better to qualify</p>
+                    <p v-if="selected + 1 <= 100"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
+                    <p v-else-if="selected +1 <= 200">Get <strong>100%</strong> to qualify</p>
                     <p v-else>This level does not accept new records.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
@@ -126,7 +126,7 @@ export default {
                         Do not use easy modes, only a record of the unmodified level qualifies
                     </p>
                     <p>
-                        Once a level falls onto the Legacy List ( Below Top 250 ), records are no longer accepted. Sorry!
+                        Once a level falls onto the Legacy List ( Below Top 200 ), records are no longer accepted. Sorry!
                     </p>
                     <p>
                         All submissions here must be done on the full version of Geometry Dash. Any completions on Lite must go to the Lite list.
