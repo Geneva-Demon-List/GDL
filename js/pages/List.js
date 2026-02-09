@@ -56,8 +56,8 @@ export default {
                         </li>
                     </ul>
                     <h2>Records</h2>
-                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
-                    <p v-else-if="selected +1 <= 150"><strong>100%</strong> or better to qualify</p>
+                    <p v-if="selected + 1 <= 125"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
+                    <p v-else-if="selected +1 <= 250"><strong>100%</strong> or better to qualify</p>
                     <p v-else>This level does not accept new records.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
@@ -99,6 +99,7 @@ export default {
                         </ol>
                     </template>
                     <h2>Also check out the Geneva Challengelist by <a href="https://gdlchallenge.pages.dev">CLICKING HERE</a>!</h2>
+                    <h2>The GD Lite List can also be found by <a href="https://gdllite.pages.dev">CLICKING HERE</a>!</h2>
                     <h3>Submission Requirements</h3>
                     <p>
                         Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
@@ -123,6 +124,15 @@ export default {
                     </p>
                     <p>
                         Once a level falls onto the Legacy List ( Below Top 250 ), records are no longer accepted. Sorry!
+                    </p>
+                    <p>
+                        All submissions here must be done on the full version of Geometry Dash. Any completions on Lite must go to the Lite list.
+                    </p>
+                    <p>
+                        All submissions on the Main list on levels less than 30 seconds long must go to the challenge list. You can check this by seeing the level page, and if it is described as "Short" or "Tiny", it belongs on the Challenge List.
+                    </p>
+                    <p>
+                        All submissions must be done on a level already on the list, or if it is a GDL Verification, the level must either be rated, be decorated to some extent, or have historial significance.
                     </p>
                 </div>
             </div>
