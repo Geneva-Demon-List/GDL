@@ -3,10 +3,16 @@
     "name": "Cataclysm",
     "author": "GgB0y",
     "creators": [],
-    "verifier": "Riot",
+    "verifier": "wRocket",
     "verification": "https://youtu.be/W7QijPc0lJM",
     "percentToQualify": "59",
     "difficulty": "Extreme Demon",
     "records": [
+        {
+            "user": "EarthMoth",
+            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
