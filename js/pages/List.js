@@ -102,6 +102,9 @@ export default {
                     <h2>The GD Lite List can also be found by <a href="https://gdllite.pages.dev">CLICKING HERE</a>!</h2>
                     <h3>Submission Requirements</h3>
                     <p>
+                        Submission MUST be done by somebody who lives within Geneva, Ohio.
+                    </p>
+                    <p>
                         Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
                     </p>
                     <p>
