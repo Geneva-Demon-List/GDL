@@ -51,17 +51,13 @@ export default {
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Password</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
-                        </li>
-                        <li>
                             <div class="type-title-sm">Level Difficulty</div>
                             <p>{{ level.difficulty || 'N/A' }}</p>
                         </li>
                     </ul>
                     <h2>Records</h2>
-                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
-                    <p v-else-if="selected +1 <= 150"><strong>100%</strong> or better to qualify</p>
+                    <p v-if="selected + 1 <= 125"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
+                    <p v-else-if="selected +1 <= 250"><strong>100%</strong> or better to qualify</p>
                     <p v-else>This level does not accept new records.</p>
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
@@ -110,7 +106,7 @@ export default {
                         Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
                     </p>
                     <p>
-                        Have audible click sounds throughout the video only IF it is an Hard Demon, Insane Demon, or an Extreme Demon. If the level is unrated, only if it is hard enough to at least be a Hard Demon, or if the list says so on the level page.
+                        Have audible click sounds throughout the video, no matter what.
                     </p>
                     <p>
                         The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt.
@@ -126,6 +122,9 @@ export default {
                     </p>
                     <p>
                         Once a level falls onto the Legacy List ( Below Top 250 ), records are no longer accepted. Sorry!
+                    </p>
+                    <p>
+                        All levels on the challenge list MUST be less than 30 seconds long. If the level's length reads as "Short", you're good! Although "Tiny" levels probably will not meet quality standards.
                     </p>
                 </div>
             </div>
