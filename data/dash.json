@@ -8,5 +8,11 @@
     "percentToQualify": "70",
     "difficulty": "Insane",
     "records": [
+        {
+            "user": "MrGilFellow",
+            "link": "https://youtu.be/WLlA493BQGw?si=TfewYCZv2t533XOQ",
+            "percent": 100,
+            "hz": 475
+        }
     ]
 }
