@@ -106,7 +106,7 @@ export default {
                         Submission MUST be done by somebody who lives within Geneva, Ohio.
                     </p>
                     <p>
-                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
+                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps). When using mod menus ( Mega Hack, Eclipse, etc ), the Cheat Indicator must be on.
                     </p>
                     <p>
                         Achieved the record on the level that is listed on the site - please check the level ID before you submit a record. If it is a level new to the site, this rule is invalidated.
@@ -115,7 +115,7 @@ export default {
                         Have audible click sounds throughout the video only IF it is an Insane Demon or an Extreme Demon. If the level is unrated, only if it is hard enough to at least be a Hard Demon, or if the list says so on the level page.
                     </p>
                     <p>
-                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt.
+                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. ( Only applies to Unrated/Rated Insane Demon or Extreme Demon )
                     </p>
                     <p>
                         The recording must also show the player hit the endwall, or the completion will be invalidated.
