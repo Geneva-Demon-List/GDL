@@ -8,11 +8,5 @@
     "percentToQualify": "70",
     "difficulty": "Easy Demon",
     "records": [
-        {
-            "user": "EarthMoth",
-            "link": "https://www.youtube.com/watch?v=WlJzbPZkdjE",
-            "percent": 100,
-            "hz": 240
-        }
     ]
 }
