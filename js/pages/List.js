@@ -136,6 +136,9 @@ export default {
                         All submissions here must be done on the full version of Geometry Dash. Any completions on Lite must go to the Lite list.
                     </p>
                     <p>
+                        All levels on this list must be published and publicly available for anybody with the full version to play.
+                    </p>
+                    <p>
                         All submissions on the Main list on levels less than 30 seconds long must go to the challenge list. You can check this by seeing the level page, and if it is described as "Short" or "Tiny", it belongs on the Challenge List.
                     </p>
                     <p>
