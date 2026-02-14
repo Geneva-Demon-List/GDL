@@ -1,8 +1,8 @@
 {
-    "id": 133345122,
+    "id": 133496169,
     "name": "Stargazing",
-    "author": "wRocket",
-    "creators": [],
+    "author": "earthmoth",
+    "creators": [wRocket],
     "verifier": "wRocket",
     "verification": "https://youtu.be/UxDtAfVLMWM",
     "percentToQualify": "70",
