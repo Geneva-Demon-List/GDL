@@ -144,6 +144,9 @@ export default {
                     <p>
                         All submissions must be done on a level already on the list, or if it is a GDL Verification, the level must either be rated, be decorated to some extent, or have historial significance.
                     </p>
+                    <p>
+                        Auto levels are not allowed on this list, the minimum are Easy difficulty levels.
+                    </p>
                 </div>
             </div>
         </main>
