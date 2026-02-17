@@ -118,7 +118,7 @@ export default {
                         The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. ( Only applies to Unrated/Rated Insane Demon or Extreme Demon )
                     </p>
                     <p>
-                        If the level is a verification, a level new to the list, the entire attempt must be recorded. This does not apply to non-demon levels.
+                        If the level is a verification, a level new to the list, the entire attempt must be recorded. This applies to all levels.
                     </p>
                     <p>
                         The recording must also show the player hit the endwall, or the completion will be invalidated.
