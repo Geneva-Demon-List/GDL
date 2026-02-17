@@ -24,9 +24,10 @@ export function score(rank, percent, minPercent) {
         ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
 
     and (-24.9975*Math.pow(rank-1, 0.4) + 250)
+    -22*Math.pow(rank-1, 0.45) + 250
     */
     // New formula
-    let score = (-22*Math.pow(rank-1, 0.45) + 250) *
+    let score = (500 - Math.sqrt(rank) * 35) *
         ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
 
     score = Math.max(0, score);
