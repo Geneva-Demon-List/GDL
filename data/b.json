@@ -11,8 +11,8 @@
           {
             "user": "MrGilFellow",
             "link": "https://youtu.be/vitUBLywEnw",
-            "percent": 100,
-            "hz": 480
+            "percent": "100",
+            "hz": 480,
         },
     ]
 }
