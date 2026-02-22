@@ -8,5 +8,12 @@
     "percentToQualify": "75",
     "difficulty": "Easy Demon",
     "records": [
+           {
+            "user": "MrGilFellow",
+            "link": "https://youtu.be/yX75O1ZfCoA",
+            "percent": 100,
+            "hz": 480
+        },
     ]
 }
+
