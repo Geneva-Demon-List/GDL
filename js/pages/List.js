@@ -147,6 +147,9 @@ export default {
                     <p>
                         Auto levels are not allowed on this list, the minimum are Easy difficulty levels.
                     </p>
+                    <p>
+                        If you use Mega Hack, you must set your ruleset to Demonlist. This also means that if the GD Demonlist does not allow a hack to be turned on, the GDL doesn't either.
+                    </p>
                 </div>
             </div>
         </main>
