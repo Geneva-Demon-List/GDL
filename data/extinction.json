@@ -8,11 +8,11 @@
     "percentToQualify": "80",
     "difficulty": "Easy Demon",
     "records": [
-            {
+        {
             "user": "wRocket",
             "link": "https://www.youtube.com/watch?v=TAirgD0rk10",
             "percent": 100,
             "hz": 240
-        },
+        }
     ]
 }
