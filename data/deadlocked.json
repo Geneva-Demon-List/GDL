@@ -3,16 +3,16 @@
     "name": "Deadlocked",
     "author": "RobTop",
     "creators": [],
-    "verifier": "wRocket",
-    "verification": "https://youtu.be/fzUSymz8FAg",
+    "verifier": "earthmoth",
+    "verification": "https://youtu.be/6zgcii8AeUI",
     "percentToQualify": "80",
     "difficulty": "Easy Demon",
     "records": [
         {
-            "user": "earthmoth",
-            "link": "https://youtu.be/6zgcii8AeUI",
+            "user": "wRocket",
+            "link": "https://youtu.be/fzUSymz8FAg",
             "percent": 100,
-            "hz": 480
+            "hz": 240
         },
         {
             "user": "MrGilFellow",
