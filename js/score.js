@@ -30,8 +30,8 @@ export function score(rank, percent, minPercent) {
     350 - Math.pow(rank - 1, 0.4) * 42
     */
     // New formula
-    let score = math.round((500 / ((rank + 6.5) / 7.5)) *
-        ((percent - (minPercent - 1)) / (100 - (minPercent - 1))));
+    let score = (500 / ((rank + 6.5) / 7.5)) *
+        ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
 
     score = Math.max(0, score);
 
@@ -39,7 +39,7 @@ export function score(rank, percent, minPercent) {
         return round(score - score / 3);
     }
 
-    return Math.max(round(score), 0);
+    return Math.round(Math.max(round(score), 0));
 }
 
 export function round(num) {
