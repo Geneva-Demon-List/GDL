@@ -112,13 +112,16 @@ export default {
                         Achieved the record on the level that is listed on the site - please check the level ID before you submit a record. If it is a level new to the site, this rule is invalidated.
                     </p>
                     <p>
-                        Have audible click sounds OR a handcam throughout the video only IF it is a Hard Demon, Insane Demon, or Extreme Demon. If the level is unrated, only if it is hard enough to at least be a Hard Demon, or if the list says so on the level page.
+                        Have audible click sounds OR a handcam throughout the video only IF it is a Insane Demon, or Extreme Demon. If it is unrated, it is up to our decision.
                     </p>
                     <p>
                         The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. ( Only applies to Unrated/Rated Insane Demon or Extreme Demon )
                     </p>
                     <p>
                         If the level is a verification, a level new to the list, the entire attempt must be recorded. This applies to all levels.
+                    </p>
+                    <p>
+                        If the level is at least Hard Demon difficulty, recorded evidence must be provided. Easy and Medium demons are able to be submitted via a screenshot of the endscreen, but recordings are heavily reccomended.
                     </p>
                     <p>
                         The recording must also show the player hit the endwall, or the completion will be invalidated.
