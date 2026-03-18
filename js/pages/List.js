@@ -150,6 +150,9 @@ export default {
                     <p>
                         If you use Mega Hack, you must set your ruleset to Demonlist. This also means that if the GD Demonlist does not allow a hack to be turned on, the GDL doesn't either.
                     </p>
+                    <p>
+                        For screenshotted completions, please have the 'Show Info Label' setting toggled on. This can be activated by: Playing the level, pausing it, click on the top-right settings icon, and toggle on 'Show Info Labels'. You do not have to do this for recorded completions.
+                    </p>
                 </div>
             </div>
         </main>
