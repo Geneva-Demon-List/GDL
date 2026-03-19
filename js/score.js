@@ -28,18 +28,19 @@ export function score(rank, percent, minPercent) {
     500 - Math.sqrt(rank - 1) * 35
     (500 - Math.sqrt(rank - 1) * 35) / 2
     350 - Math.pow(rank - 1, 0.4) * 42
+    500 / ((rank + 6.5) / 7.5))
     */
     // New formula
-    let score = (500 / ((rank + 6.5) / 7.5)) *
+    let score = (500 / ((rank + 9.1) / 10.1)) *
         ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
 
     score = Math.max(0, score);
 
     if (percent != 100) {
-        return round(score - score / 3);
+        return score - score / 3;
     }
 
-    return Math.round(Math.max(round(score), 0));
+    return Math.max(round(score), 0);
 }
 
 export function round(num) {
