@@ -7,6 +7,12 @@
     "verification": "https://youtu.be/ilFDg44wZq4",
     "percentToQualify": "90",
     "difficulty": "Medium Demon",
-    "records": [
+     "records": [
+            {
+            "user": "Goobyte",
+            "link": "https://cdn.discordapp.com/attachments/1484272990618390619/1484272990890754068/20CF4D1.JPG?ex=69bda071&is=69bc4ef1&hm=92620e831a63c42dfdc49adf76538da67cf1f0d49f8f2c139b1668940e5d6621&",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
