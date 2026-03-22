@@ -8,5 +8,11 @@
     "percentToQualify": "80",
     "difficulty": "Medium Demon",
     "records": [
+        {
+            "user": "wRocket",
+            "link": "https://youtu.be/vkQHENC7ZP8",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
