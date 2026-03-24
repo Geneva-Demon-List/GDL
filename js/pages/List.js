@@ -133,7 +133,7 @@ export default {
                         Do not use easy modes, only a record of the unmodified level qualifies
                     </p>
                     <p>
-                        Once a level falls onto the Legacy List ( Below Top 200 ), records are no longer accepted. Sorry!
+                        Once a level falls onto the Legacy List ( Below Top 300 ), records are no longer accepted. Sorry!
                     </p>
                     <p>
                         All submissions here must be done on the full version of Geometry Dash. Any completions on Lite must go to the Lite list.
