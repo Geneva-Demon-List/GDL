@@ -3,16 +3,10 @@
     "name": "Decode",
     "author": "Rek3dge",
     "creators": [],
-    "verifier": "MrGilFellow",
-    "verification": "https://youtu.be/itT9fTsmbVw",
+    "verifier": "wRocket",
+    "verification": "https://youtu.be/isS-a-kuBeY",
     "percentToQualify": "80",
     "difficulty": "Easy Demon",
     "records": [
-        {
-            "user": "wRocket",
-            "link": "https://youtu.be/isS-a-kuBeY",
-            "percent": 100,
-            "hz": 240
-        }
     ]
 }
