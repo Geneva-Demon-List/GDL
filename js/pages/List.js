@@ -124,7 +124,7 @@ export default {
                         If the level is a verification, a level new to the list, the entire attempt must be recorded. This applies to all levels.
                     </p>
                     <p>
-                        For all levels, recorded evidence must be provided. Screenshotted completions of Easy and Medium demons before March 30, 2026 are only allowed under such circumstances.
+                        For all levels, recorded evidence must be provided. No sending screenshots because they do not provide enough evidence for it to be legit.
                     </p>
                     <p>
                         The recording must also show the player hit the endwall, or the completion will be invalidated.
