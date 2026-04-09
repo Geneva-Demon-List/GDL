@@ -115,6 +115,9 @@ export default {
                         Have audible click sounds ( no clickbot allowed ) OR a handcam throughout the video only IF it is a Hard Demon, Insane Demon, or Extreme Demon. If it is unrated, it is up to our decision.
                     </p>
                     <p>
+                        About Clickbotting levels, they are considered extremely suspicious on this list. If you clickbot one or two easy demons for example, it will usually not be considered a rulebreak. Doing it often, however, can lead into a purge of your submissions or even a possible ban.
+                    </p>
+                    <p>
                         The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. ( Only applies to Unrated/Rated Insane Demon or Extreme Demon )
                     </p>
                     <p>
