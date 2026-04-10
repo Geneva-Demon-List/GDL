@@ -40,8 +40,8 @@ export default {
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
-                    <p v-if="level.description">{{level.description}}</p>
-                    <p v-else>Description not found.</p>
+                    <p style="font-size: 17px;" v-if="level.description">{{level.description}}</p>
+                    <p style="font-size: 12px;" v-else>Description not found.</p>
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
