@@ -3,10 +3,16 @@
     "name": "Speed Racer",
     "author": "ZenthicAlpha",
     "creators": [],
-    "verifier": "wRocket",
-    "verification": "https://youtu.be/ZK-zt1CaVQU",
+    "verifier": "MrGilFellow",
+    "verification": "https://youtu.be/uiVPP4AhtfU",
     "percentToQualify": "100",
     "difficulty": "Easy Demon",
     "records": [
+        {
+            "user": "wRocket",
+            "link": "https://youtu.be/ZK-zt1CaVQU",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
