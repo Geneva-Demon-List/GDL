@@ -6,13 +6,19 @@
     "verifier": "earthmoth",
     "verification": "https://youtu.be/6zgcii8AeUI",
     "percentToQualify": "80",
-    "difficulty": "Medium Demon",
+    "difficulty": "Easy Demon",
     "records": [
         {
             "user": "wRocket",
             "link": "https://www.youtube.com/watch?v=TOCi1dsX0eA",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "MrGilFellow",
+            "link": "https://youtu.be/N_bokJmwTzU",
+            "percent": 100,
+            "hz": 480
         }
     ]
 }
