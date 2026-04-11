@@ -11,13 +11,15 @@ const scale = 3;
  * @returns {Number}
  */
 export function score(rank, percent, minPercent) {
-    if (rank > 300) {
+    if (rank > 200) {
         return 0;
     }
-    if (rank > 150 && percent < 100) {
+    if (rank > 100 && percent < 100) {
         return 0;
     }
 
+    // Math.max(round(score), 0)
+    
     // Old formula
     /*
     let score = (100 / Math.sqrt((rank - 1) / 50 + 0.444444) - 50) *
@@ -30,17 +32,12 @@ export function score(rank, percent, minPercent) {
     350 - Math.pow(rank - 1, 0.4) * 42
     500 / ((rank + 6.5) / 7.5))
     */
+    
     // New formula
     let score = (350 / ((rank + 9.1) / 10.1)) *
-        ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
+        (((precent - minPrecent) + 1) / 100);
 
     score = Math.max(0, score);
-
-    if (percent != 100) {
-        return score - score / 3;
-    }
-
-    // Math.max(round(score), 0)
     
     return Math.round(Math.max(round(score), 0) * 10) / 10;
 }
