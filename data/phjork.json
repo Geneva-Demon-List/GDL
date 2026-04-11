@@ -3,10 +3,22 @@
     "name": "Phjork",
     "author": "cerufiffy",
     "creators": [],
-    "verifier": "wRocket",
-    "verification": "https://youtu.be/mGLIqvDHNOc",
+    "verifier": "MrGilFellow",
+    "verification": "https://youtu.be/zpIZnoRVtlU",
     "percentToQualify": "100",
     "difficulty": "Easy Demon",
     "records": [
+        {
+            "user": "wRocket",
+            "link": "https://youtu.be/mGLIqvDHNOc",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Goobyte",
+            "link": "https://imgur.com/a/R8j72Iy",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
