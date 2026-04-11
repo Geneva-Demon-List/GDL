@@ -34,9 +34,12 @@ export function score(rank, percent, minPercent) {
     */
     
     // New formula
-    let score = (350 / ((rank + 9.1) / 10.1)) *
-        (((precent - minPrecent) + 1) / 100);
+    let score = (350 / ((rank + 9.1) / 10.1));
 
+    if precent != 100 {
+        score =  score * (((precent - minPrecent) + 10) / 100)
+    }
+    
     score = Math.max(0, score);
     
     return Math.round(Math.max(round(score), 0) * 10) / 10;
