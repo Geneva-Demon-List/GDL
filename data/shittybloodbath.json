@@ -8,5 +8,11 @@
     "percentToQualify": "70",
     "difficulty": "Unrated Hard Demon",
     "records": [ 
+         {
+            "user": "MrGilfellow",
+            "link": "https://www.youtube.com/watch?v=HNl09Jykygg",
+            "percent": 100,
+            "hz": 480
+        }
     ]
 }
