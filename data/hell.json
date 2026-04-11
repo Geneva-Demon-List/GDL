@@ -4,9 +4,15 @@
     "author": "Serponge",
     "creators": [],
     "verifier": "MrGilfellow",
-    "verification": "https://youtu.be/vkQHENC7ZP8",
+    "verification": "https://youtu.be/eWWMn2ikC70",
     "percentToQualify": "80",
     "difficulty": "Medium Demon",
     "records": [
+    {
+            "user": "wRocket",
+            "link": "https://youtu.be/vkQHENC7ZP8",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
