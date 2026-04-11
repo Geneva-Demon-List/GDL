@@ -1,13 +1,19 @@
+
 {
     "id": 38427291,
     "name": "Extinction",
     "author": "HaoN",
     "creators": [],
-    "verifier": "wRocket",
-    "verification": "https://www.youtube.com/watch?v=TAirgD0rk10",
+    "verifier": "MrGilFellow",
+    "verification": "https://youtu.be/9K0jfPxO2gU",
     "percentToQualify": "80",
     "difficulty": "Easy Demon",
     "records": [
-
+            {
+            "user": "wRocket",
+            "link": "https://www.youtube.com/watch?v=TAirgD0rk10",
+            "percent": 100,
+            "hz": 240
+        },
     ]
 }
