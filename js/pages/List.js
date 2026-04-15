@@ -39,7 +39,6 @@ export default {
             <div class="level-container">
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
-                    <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <p style="font-size: 30px; color: cyan;" v-if="level.formertopone"><strong>GDL Former Top 1</strong></p>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <p style="font-size: 15px;" v-if="level.description">{{level.description}}</p>
