@@ -24,9 +24,6 @@ export default {
             <div class="list-container">
                 <table class="list" v-if="list">
                     <tr v-for="([level, err], i) in list">
-                        <td class="video">
-                            <img :src="getThumbnailFromId(getYoutubeIdFromUrl(level.video))" alt="" width="150" height="100">
-                        </td>
                         <td class="rank">
                             <p v-if="i + 1 <= 200" class="type-label-lg">#{{ i + 1 }}</p>
                             <p v-else class="type-label-lg">Legacy</p>
