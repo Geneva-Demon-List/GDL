@@ -221,4 +221,4 @@ export default {
         embed,
         score,
     },
-}:
+};
