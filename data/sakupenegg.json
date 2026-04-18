@@ -4,16 +4,10 @@
     "name": "Sakupen Egg",
     "author": "Sivlol",
     "creators": [],
-    "verifier": "MrGilFellow",
-    "verification": "https://youtu.be/oPBEV2n4j4k",
+    "verifier": "wRocket",
+    "verification": "https://www.youtube.com/watch?v=acjhq7on1LU",
     "percentToQualify": "80",
     "difficulty": "Medium Demon",
     "records": [
-        {
-            "user": "wRocket",
-            "link": "https://www.youtube.com/watch?v=acjhq7on1LU",
-            "percent": 100,
-            "hz": 240
-        }
     ]
 }
