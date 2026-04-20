@@ -3,16 +3,10 @@
     "name": "iS",
     "author": "Grenate",
     "creators": [],
-    "verifier": "MrGilFellow",
-    "verification": "https://youtu.be/0QumtDD50q8",
+    "verifier": "wRocket",
+    "verification": "https://youtu.be/wWBHcIs2ef0",
     "percentToQualify": "100",
     "difficulty": "Easy Demon",
     "records": [
-        {
-            "user": "wRocket",
-            "link": "https://youtu.be/wWBHcIs2ef0",
-            "percent": 100,
-            "hz": 240
-        }
     ]
 }
