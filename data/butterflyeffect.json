@@ -3,16 +3,10 @@
     "name": "Butterfly Effect",
     "author": "Linco",
     "creators": [],
-    "verifier": "MrGilfellow",
-    "verification": "https://youtu.be/L9UpFvbQLUs",
+    "verifier": "wRocket",
+    "verification": "https://youtu.be/dE1wlwd6DG4",
     "percentToQualify": "80",
     "difficulty": "Easy Demon",
     "records": [
-            {
-            "user": "wRocket",
-            "link": "https://www.youtube.com/watch?v=dE1wlwd6DG4",
-            "percent": 100,
-            "hz": 240
-        }
     ]
 }
