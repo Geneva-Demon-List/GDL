@@ -3,16 +3,10 @@
     "name": "Living Open",
     "author": "MaFFaKa",
     "creators": [],
-    "verifier": "MrGilFellow",
-    "verification": "https://youtu.be/xu1N7O8PTMY",
+    "verifier": "wRocket",
+    "verification": "https://youtu.be/GDRnwv3z5y4",
     "percentToQualify": "90",
     "difficulty": "Medium Demon",
     "records": [
-        {
-            "user": "wRocket",
-            "link": "https://youtu.be/GDRnwv3z5y4",
-            "percent": 100,
-            "hz": 240
-        }
     ]
 }
