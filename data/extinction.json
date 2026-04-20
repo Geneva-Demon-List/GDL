@@ -3,16 +3,10 @@
     "name": "Extinction",
     "author": "HaoN",
     "creators": [],
-    "verifier": "MrGilFellow",
-    "verification": "https://youtu.be/9K0jfPxO2gU",
+    "verifier": "wRocket",
+    "verification": "https://youtu.be/TAirgD0rk10",
     "percentToQualify": "80",
     "difficulty": "Easy Demon",
     "records": [
-            {
-            "user": "wRocket",
-            "link": "https://www.youtube.com/watch?v=TAirgD0rk10",
-            "percent": 100,
-            "hz": 240
-        }
     ]
 }
