@@ -3,10 +3,16 @@
     "name": "Hell",
     "author": "Serponge",
     "creators": [],
-    "verifier": "wRocket",
-    "verification": "https://youtu.be/vkQHENC7ZP8",
+    "verifier": "MrGilFellow",
+    "verification": "https://youtu.be/eWWMn2ikC70",
     "percentToQualify": "80",
     "difficulty": "Medium Demon",
     "records": [
+        {
+            "user": "wRocket",
+            "link": "https://youtu.be/vkQHENC7ZP8",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
