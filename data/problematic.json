@@ -3,16 +3,10 @@
     "name": "Problematic",
     "author": "Dhafin",
     "creators": [],
-    "verifier": "MrGilfellow",
-    "verification": "https://youtu.be/GsJdH3FFYOE",
+    "verifier": "wRocket",
+    "verification": "https://youtu.be/8m9dqVUPLAE",
     "percentToQualify": "100",
     "difficulty": "Easy Demon",
     "records": [
-          {
-            "user": "wRocket",
-            "link": "https://www.youtube.com/watch?v=8m9dqVUPLAE",
-            "percent": 100,
-            "hz": 240
-        }
     ]
 }
