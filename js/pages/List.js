@@ -2,90 +2,89 @@ import { store } from "../main.js";
 import { embed } from "../util.js";
 import { score } from "../score.js";
 import { fetchEditors, fetchList } from "../content.js";
-
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
 
 const roleIconMap = {
-    owner: "crown",
-    admin: "user-gear",
-    helper: "user-shield",
-    dev: "code",
-    trial: "user-lock",
+  owner: "crown",
+  admin: "user-gear",
+  helper: "user-shield",
+  dev: "code",
+  trial: "user-lock",
 };
 
 export default {
-    components: { Spinner, LevelAuthors },
-      data: () => ({
-        list: [],
-        editors: [],
-        loading: true,
-        selected: 0,
-        errors: [],
-        searchQuery: "",
-        roleIconMap,
-        store,
-      }),
-      computed: {
-        filteredList() {
-          if (!this.searchQuery) return this.list;
-          return this.list.filter(([level, err]) => {
-            if (!level || !level.name) return false;
-            return level.name.toLowerCase().includes(this.searchQuery.toLowerCase());
-          });
-        },
-        selectedLevel() {
-          return this.filteredList[this.selected]
-            ? this.filteredList[this.selected][0]
-            : null;
-        },
-        // Compute the original rank (index) in the full list for display purposes.
-        selectedIndexInFullList() {
-          if (!this.selectedLevel) return this.selected + 1;
-          return (
-            this.list.findIndex(
-              (item) => item[0] && item[0].id === this.selectedLevel.id
-            ) + 1
-          );
-        },
-      },
-      watch: {
-        // Reset the selected index when the search query changes.
-        searchQuery() {
-          this.selected = 0;
-        },
-      },
-      methods: {
-        embed,
-        score,
-        getOriginalRank(level) {
-          let index = this.list.findIndex(
-            (item) => item[0] && item[0].id === level.id
-          );
-          return index >= 0 ? index + 1 : this.selected + 1;
-        },
-      },
-      async mounted() {
-        this.list = await fetchList();
-        this.editors = await fetchEditors();
-        if (!this.list) {
-          this.errors = [
-            "Failed to load list. Retry in a few minutes or notify list staff.",
-          ];
-        } else {
-          this.errors.push(
-            ...this.list
-              .filter(([_, err]) => err)
-              .map(([_, err]) => `Failed to load level. (${err}.json)`)
-          );
-          if (!this.editors) {
-            this.errors.push("Failed to load list editors.");
-          }
-        }
-        this.loading = false;
-      },
-    template: `
-        <main v-if="loading">
+  components: { Spinner, LevelAuthors },
+  data: () => ({
+    list: [],
+    editors: [],
+    loading: true,
+    selected: 0,
+    errors: [],
+    searchQuery: "",
+    roleIconMap,
+    store,
+  }),
+  computed: {
+    filteredList() {
+      if (!this.searchQuery) return this.list;
+      return this.list.filter(([level, err]) => {
+        if (!level || !level.name) return false;
+        return level.name.toLowerCase().includes(this.searchQuery.toLowerCase());
+      });
+    },
+    selectedLevel() {
+      return this.filteredList[this.selected]
+        ? this.filteredList[this.selected][0]
+        : null;
+    },
+    // Compute the original rank (index) in the full list for display purposes.
+    selectedIndexInFullList() {
+      if (!this.selectedLevel) return this.selected + 1;
+      return (
+        this.list.findIndex(
+          (item) => item[0] && item[0].id === this.selectedLevel.id
+        ) + 1
+      );
+    },
+  },
+  watch: {
+    // Reset the selected index when the search query changes.
+    searchQuery() {
+      this.selected = 0;
+    },
+  },
+  methods: {
+    embed,
+    score,
+    getOriginalRank(level) {
+      let index = this.list.findIndex(
+        (item) => item[0] && item[0].id === level.id
+      );
+      return index >= 0 ? index + 1 : this.selected + 1;
+    },
+  },
+  async mounted() {
+    this.list = await fetchList();
+    this.editors = await fetchEditors();
+    if (!this.list) {
+      this.errors = [
+        "Failed to load list. Retry in a few minutes or notify list staff.",
+      ];
+    } else {
+      this.errors.push(
+        ...this.list
+          .filter(([_, err]) => err)
+          .map(([_, err]) => `Failed to load level. (${err}.json)`)
+      );
+      if (!this.editors) {
+        this.errors.push("Failed to load list editors.");
+      }
+    }
+    this.loading = false;
+  },
+  template: `
+    <main v-if="loading">
             <Spinner></Spinner>
         </main>
         <main v-else class="page-list">
@@ -233,59 +232,5 @@ export default {
                 </div>
             </div>
         </main>
-    `,
-    data: () => ({
-        list: [],
-        editors: [],
-        loading: true,
-        selected: 0,
-        errors: [],
-        roleIconMap,
-        store
-    }),
-    computed: {
-        level() {
-            return this.list[this.selected][0];
-        },
-        video() {
-            if (!this.level.showcase) {
-                return embed(this.level.verification);
-            }
-
-            return embed(
-                this.toggledShowcase
-                    ? this.level.showcase
-                    : this.level.verification
-            );
-        },
-    },
-    async mounted() {
-        // Hide loading spinner
-        this.list = await fetchList();
-        this.editors = await fetchEditors();
-
-        // Error handling
-        if (!this.list) {
-            this.errors = [
-                "Failed to load list. Retry in a few minutes or notify list staff.",
-            ];
-        } else {
-            this.errors.push(
-                ...this.list
-                    .filter(([_, err]) => err)
-                    .map(([_, err]) => {
-                        return `Failed to load level. (${err}.json)`;
-                    })
-            );
-            if (!this.editors) {
-                this.errors.push("Failed to load list editors.");
-            }
-        }
-
-        this.loading = false;
-    },
-    methods: {
-        embed,
-        score,
-    },
+  `,
 };
