@@ -3,10 +3,9 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=1024" />
-        <title>The Geneva Demonlist</title>
-
-        <!-- Replace your server icon by uploading an image file named "list_icon.png"-->
-        <link rel="icon" href="/list_icon.png" />
+        <title>Upgraded list template</title>
+        <!-- Icon for tab image here Right now its just set to one of the images inside of assets but you can replace it with your own-->
+        <link rel="icon" href="assets/code.svg" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -17,6 +16,7 @@
         <link rel="stylesheet" type="text/css" href="/css/typography.css" />
         <link rel="stylesheet" type="text/css" href="/css/main.css" />
         <link rel="stylesheet" type="text/css" href="/css/pages/list.css" />
+        <link rel="stylesheet" type="text/css" href="/css/pages/list-packs.css" />
         <link
             rel="stylesheet"
             type="text/css"
@@ -37,18 +37,21 @@
     <body id="app">
         <header :class="{ dark: store.dark }">
             <div class="logo">
-                <h2>GDL Main List</h2>
-                <p>v1.0.0</p>
+                <h2>Geneva Demon List</h2>
+                <p>v1.0</p>
             </div>
             <nav class="nav">
                 <router-link class="nav__tab" to="/">
                     <span class="type-label-lg">List</span>
                 </router-link>
                 <router-link class="nav__tab" to="/leaderboard">
-                    <span class="type-label-lg">Stats Viewer</span>
+                    <span class="type-label-lg">Leaderboard</span>
                 </router-link>
                 <router-link class="nav__tab" to="/roulette">
                     <span class="type-label-lg">Roulette</span>
+                </router-link>
+                <router-link class="nav__tab" to="/listpacks">
+                    <span class="type-label-lg">Packs</span>
                 </router-link>
                 <div class="nav__actions">
                     <button
